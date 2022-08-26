@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="enter city name" id="city">
+        <button class="btn">submit</button>
+    </div>
+
+
+
+    <script>
+let inbox=document.querySelector("#city");
+let buttons=document.querySelector(".btn");
+
+buttons.addEventListener("click", function(name){
+fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${city.value}
+`)
+.then(response=>response.json())
+.then(data=>{
+    console.log(data)
+    data["meals"].foeEach(element =>{
+        console.log(element)
+        let {strMeal, strMealThumb,strInstruction,strYoutube} = element
+        let html = `div class="main">
+        <div class="left">
+            <h1>${strMeal}</h1>
+            <div class="right">img src="${strMealThumb}" width="300px"
+    })
+
+    
+})
+
+})
+
+
+    </script>
+</body>
+</html>

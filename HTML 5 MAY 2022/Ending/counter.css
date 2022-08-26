@@ -1,0 +1,33 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  h1 {
+    color: blue;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .container {
+    text-align: center;
+  }
+  #identity {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  .btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: seagreen;
+    display: inline-block;
+    font-size:4rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 2.5rem;
+    font-weight: 5px;
+  }
+  .btn:hover {
+    color: magenta;
+    color: limegreen;
+    background: lightblue;
+  }

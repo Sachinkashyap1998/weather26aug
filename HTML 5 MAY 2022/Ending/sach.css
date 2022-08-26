@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+input {
+    height: 3rem;
+    width: 16rem;
+    background-color: magenta;
+    text-align: right;
+    
+   
+    
+   
+    
+}
+
+.button {
+    height: 5rem;
+    width: 16rem;
+    background-color: chartreuse;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    border: 2px;
+   
+    
+}

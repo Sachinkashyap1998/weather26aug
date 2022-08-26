@@ -30,7 +30,10 @@ fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${city.value}
         let html = `div class="main">
         <div class="left">
             <h1>${strMeal}</h1>
-            <div class="right">img src="${strMealThumb}" width="300px"
+            <div class="right">img src="${strMealThumb}" width="300px" </div>
+            <p>${strInstruction}</p>
+            <a href="${strYoutube}">link for full preparation</a><span>
+                <div>
     })
 
     
